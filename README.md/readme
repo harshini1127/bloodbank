@@ -1,0 +1,15 @@
+# BloodBank Management System
+
+This project allows users to register, login, donate blood and request blood.
+
+## Features
+- Firebase authentication
+- Firestore database
+- Donor registration
+- Blood requests
+
+## Tech Stack
+- Python Flask
+- HTML CSS JS
+- Firebase
+
