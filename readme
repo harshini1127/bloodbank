@@ -1,0 +1,98 @@
+❤️ Blood Bank Management System
+👩‍💻 Developed By
+
+Name: Harshini R Gowda
+Student ID: 4MH23CA015
+Topic: blood bank management ystem
+Submission Date: NOVEMBER 18, 2025
+GitHub Repository: https://github.com/harshini1127/bloodbank
+📖 Overview
+The Blood Bank Management System is a web-based application designed to manage donor records, blood stock availability, and blood requests efficiently.
+It provides a centralized platform for hospitals, donors, and receivers to track and manage blood donations and requests in real-time.
+This system replaces manual records and ensures fast access to blood availability.
+
+🚀 Features
+👤 Donor Module
+Register as a donor
+Update donor profile
+View available blood stock
+Submit donation information
+
+🏥 Admin Module
+Manage donor database
+Monitor blood stock levels
+Approve / Reject blood requests
+Maintain receiver records
+
+🔥 System Features
+Firebase Authentication
+Firestore Database
+Secure real-time data storage
+Clean UI
+Responsive dashboard
+
+🛠 Tech Stack
+Component	Technology
+Frontend	HTML, CSS, JavaScript
+Backend	Python Flask
+Database	Firebase Firestore
+Auth	Firebase Authentication
+Hosting	Local OR Cloud
+
+📁 Project Folder Structure
+bloodbank/
+│
+├── backend/
+│   ├── app.py
+│   ├── serviceAccountKey.json (NOT INCLUDED IN GITHUB)
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── styles.css
+│
+├── README.md
+
+🔗 System Workflow
+Donor Registration
+        ↓
+Blood Stock Updates
+        ↓
+Receiver Request
+        ↓
+Admin Approval / Reject
+        ↓
+Database Updates + Dashboard
+
+📊 Results
+✔ Donor register working
+✔ Firebase connection successful
+✔ Blood request storing
+✔ Admin approval functional
+✔ Dashboard running
+
+🧪 Testing Report
+Module	               Status
+Donor Registration    	✔ Passed
+Login Auth	            ✔ Passed
+Database	              ✔ Passed
+Blood Requests	        ✔ Passed
+Admin Panel	            ✔ Passed
+
+⚠️ Issues Faced
+Firebase credential key restrictions
+HTTPS requirement in deployment
+CORS issue during fetch requests
+
+🔮 Future Improvements
+SMS notification system
+Email alerts to donors
+Blood request AI matching
+Full hospital management integration
+Mobile App version
+
+🏁 Conclusion
+This system provides a streamlined method of managing blood donors, requests, and available stock efficiently using cloud-based architecture.
+It eliminates manual errors and ensures quick availability of blood when urgently required.
