@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Donor Registration</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header>
+<h1>Register as Donor</h1>
+<a href="index.html">Home</a>
+</header>
+
+
+<main>
+<form id="donorForm">
+<label>Name: <input type="text" name="name" required></label>
+<label>Age: <input type="number" name="age" min="18" max="65" required></label>
+<label>Blood Group:
+<select name="bloodGroup">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+</label>
+<label>Contact: <input type="text" name="contact" required></label>
+<button type="submit">Submit</button>
+</form>
+<div id="msg"></div>
+</main>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

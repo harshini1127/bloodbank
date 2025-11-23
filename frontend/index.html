@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+ <script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDmBbFWhy0B8hXo74R13PfVwR3d9K8qtG4",
+  authDomain: "bloodmanagement-e30ab.firebaseapp.com",
+  projectId: "bloodmanagement-e30ab",
+  storageBucket: "bloodmanagement-e30ab.firebasestorage.app",
+  messagingSenderId: "803114045766",
+  appId: "1:803114045766:web:5283a0d2523eda49271547",
+  measurementId: "G-Y2FP5ERJWE"
+};
+
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <title></title>
+</head>
+<body>
+<script>
+   const db = firebase.firestore();
+   console.log("Firebase connected successfully!");
+</script>
+
+<header>
+<h1>Online Blood Bank Management</h1>
+<nav>
+<a href="donorregistration.html">Register as Donor</a>
+<a href="requestblood.html">Request Blood (Hospital)</a>
+<a href="admindashboard.html">Admin Dashboard</a>
+</nav>
+</header>
+
+
+<main>
+<section>
+<h2>Check Blood Availability</h2>
+<label for="check-bg">Blood Group:</label>
+<select id="check-bg">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+<button id="checkBtn">Check</button>
+<div id="availability"></div>
+</section>
+</main>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

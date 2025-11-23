@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Bank Dashboard</title>
+
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial; background: #f4f4f4; }
+
+        .header {
+            background: #9b0c0c; padding: 20px; color: white;
+            text-align: center; font-size: 24px; font-weight: bold;
+        }
+
+        .card-container {
+            display: flex; justify-content: center; margin-top: 50px;
+            gap: 30px; flex-wrap: wrap;
+        }
+
+        .card {
+            background: white; width: 260px; padding: 25px; border-radius: 10px;
+            box-shadow: 0px 0px 10px #999; text-align: center;
+        }
+
+        .card h3 { color: #9b0c0c; margin-bottom: 20px; }
+        .logout-btn {
+            display: block; text-align: center; background: #9b0c0c; color: #fff;
+            margin: 40px auto; padding: 12px 25px; width: 140px;
+            border-radius: 8px; text-decoration: none; font-size: 16px;
+        }
+        .logout-btn:hover { background: #7a0808; }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">Blood Bank Dashboard</div>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Donors</h3>
+            <p>View and manage donor information.</p>
+        </div>
+
+        <div class="card">
+            <h3>Blood Stock</h3>
+            <p>Check available blood units.</p>
+        </div>
+
+        <div class="card">
+            <h3>Requests</h3>
+            <p>Manage incoming blood requests.</p>
+        </div>
+
+    </div>
+
+    <a class="logout-btn" href="login.html">Logout</a>
+
+</body>
+</html>
